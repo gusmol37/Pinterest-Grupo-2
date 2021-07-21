@@ -1,0 +1,14 @@
+.d-flex{
+    flex-direction: row;
+}
+
+.form-control me-2{
+    flex-grow: 12rem;
+}
+
+
+.btn btn-outline-success{
+    align-items: flex-start;
+}
+
+
