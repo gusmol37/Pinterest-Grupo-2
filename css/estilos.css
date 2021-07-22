@@ -32,8 +32,34 @@
     border-radius: 30px;
     padding: .375rem 1rem;
 }
-.justified-gallery{
+
+.grid-container {
+    /* display: grid;
+    grid-template-columns: repeat(auto-fill, 230px);
+    gap: 20px;
+    justify-content: center; */
+  
+    /* grid-template-rows: masonry; */
+  
+    margin: 0 auto;
     margin-top: 82px!important;
+  }
+  
+  .grid-item {
+    width: 230px;
+    /* height: 200px;
+    object-fit: cover; */
+    margin-bottom: 20px;
+    border-radius: 15px;
+    cursor: zoom-in;
+    background-color: lightgray;
+  }
+  
+  .grid-item:hover {
+    filter: opacity(0.7);
+  }
+
+.justified-gallery{
 }
 
 .nav-link{

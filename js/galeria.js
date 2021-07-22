@@ -1,5 +1,12 @@
 $('#basicExample2').justifiedGallery({
-  rowHeight : 250,
   lastRow : 'nojustify',
-  margins : 13
+  margins : 0
 });
+      var elem = document.querySelector(".grid-container");
+      var msnry = new Masonry(elem, {
+        // options
+        itemSelector: ".grid-item",
+        columnWidth: 230,
+        gutter: 20,
+        isFitWidth: true
+      });
