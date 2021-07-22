@@ -1,6 +1,40 @@
 #basicExample2 img {
     border-radius: 13px;
 }
+.btn-outline-primary:hover {
+    color: #767676;
+    background-color: #F0F0F0 !important;
+}
+
+.btn-outline-primary{
+    color: #767676 !important;
+    font-size: 24px !important;
+    border-radius:30px!important;
+    padding: 8px;
+
+}
+.dropdown-item{
+    font-weight: bold !important;
+}
+.dropstart .dropdown-menu{
+    top: 50px !important;
+    margin-right: -60px !important;
+}
+
+.dropdown-toggle::before {
+    border-top: .3em solid !important;
+    border-right: .3em solid transparent !important;
+    border-bottom: 0;
+    border-left: .3em solid transparent !important;
+    margin-right: .0;
+}
+.form-control{
+    border-radius: 30px;
+    padding: .375rem 1rem;
+}
+.justified-gallery{
+    margin-top: 82px!important;
+}
 
 .nav-link{
     font-size: 15px !important;
@@ -18,9 +52,11 @@
     background-color: black;
     color:white !important
 }
-.form-control{
-    border-radius: 30px;
-    padding: .375rem 1rem;
+.navbar-light, .navbar-brand{
+    padding: 8px;
+}
+.search{
+    position: relative;
 }
 .search input {
     height: 50px;
@@ -39,32 +75,16 @@
    border: 0;
     background-color: #EFEFEF;
 }
-.search{
-    position: relative;
-}
 .search .fa-search {
     position: absolute;
     top: 17px;
     left: 16px
 }
-.btn-outline-primary:hover {
+.Subtitulos{
+    font-size: 10px;
     color: #767676;
-    background-color: #F0F0F0 !important;
-}
+    padding-left: 16px;
+    padding-top: 4px;
+    padding-bottom: 6px;
 
-.btn-outline-primary{
-    color: #767676 !important;
-    font-size: 24px !important;
-    border-radius:30px!important;
-    padding: 8px;
-}
-.navbar-light, .navbar-brand{
-    padding: 8px;
-}
-.dropdown-toggle::before {
-    border-top: .3em solid;
-    border-right: .3em solid transparent;
-    border-bottom: 0;
-    border-left: .3em solid transparent;
-    margin-right: .0;
 }
