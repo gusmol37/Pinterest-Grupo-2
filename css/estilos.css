@@ -1,6 +1,12 @@
 #basicExample2 img {
     border-radius: 13px;
 }
+
+.btn-primary {
+    border-color: #fff !important;
+    box-shadow: 0px 0px 10px 2px rgb(223, 223, 223);
+}
+
 .btn-outline-primary:hover {
     color: #767676;
     background-color: #F0F0F0 !important;
@@ -44,6 +50,11 @@
     margin: 0 auto;
     margin-top: 82px!important;
   }
+
+  .cover {
+        width: 230px;
+        z-index: 20000;
+  }
   
   .grid-item {
     width: 230px;
@@ -53,6 +64,7 @@
     border-radius: 15px;
     cursor: zoom-in;
     background-color: lightgray;
+    z-index: 1;
   }
   
   .grid-item:hover {
