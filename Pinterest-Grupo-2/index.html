@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- <link rel="preload" href="Pinterest" as="style"> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/estilos.css">
+        <title>Pinterest</title>
+        <meta name="description" content="App que permite la creación de tableros de imágenes">
+        <meta name="keywords" content="tablero, imágenes, colecciones, pinboard">
+         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand mr-0" href="#" style="margin-right: 0 !important;"><i class="fab fa-pinterest fa-lg text-danger"></i>
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link active px-3" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="#">Hoy</a>
+                    </li>
+                </ul>
+                <div class="container-fluid">
+                    <div class="col-md-12">
+                        <div class="search">
+                            <i class="fa fa-search mr-3"></i> <input type="text" class="form-control" placeholder="Buscar">
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-outline-primary border-0" type="button" style="margin-right: 2px;"><i class="fas fa-bell"></i></button>
+                <button class="btn btn-outline-primary border-0" type="button" style="margin-right: 2px;"><i class="fas fa-comment-dots"></i></button>
+                <button class="btn btn-outline-primary border-0" type="button" style="margin-right: 2px;"><i class="fa fa-user-tie"></i></button>
+                <div class="btn-group dropstart" style="margin-right: 10px; width: 30px;">
+                    <button type="button" class="btn btn-outline-primary border-0 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li Class="Subtitulos">Cuentas</li>
+            
+                        <li><a class="dropdown-item" href="#">Añadir cuenta</a></li>
+                        <li><a class="dropdown-item" href="#">Convertir en cuenta para empresas</a></li>
+                        <li Class="Subtitulos">Más opciones</li>
+
+                        <li><a class="dropdown-item" href="#">Ajustes</a></li>
+                        <li><a class="dropdown-item" href="#">Optimiza tu feed de inicio</a></li>
+                        <li><a class="dropdown-item" href="#">Instala tu aplicación Windows</a></li>
+                        <li><a class="dropdown-item" href="#">Obtener ayuda</a></li>
+                        <li><a class="dropdown-item" href="#">Ver términos y privacidad</a></li>
+                        <li><a class="dropdown-item" href="#">Cerrar sesión</a></li>
+                        
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <div class="grid-container">
+
+             <img class="grid-item" src="https://c8.alamy.com/compes/pamtb0/impresionantes-imagenes-de-girasoles-en-un-atardecer-en-sopot-cerca-de-plovdiv-bulgaria-beautoful-imagen-de-verano-pamtb0.jpg" alt="imagen 1"> 
+             <img class="grid-item" src="https://4.bp.blogspot.com/-B8tZ9Urvx9k/VZv36VtmsRI/AAAAAAAAH5Y/5bybx2hFcYo/s1600/alice%2Bin%2Bwonderland%2Bfondos%2Bpara%2Bcelular%2B8.jpg" alt="imagen 2"> 
+             <img class="grid-item" src="https://www.imagenesdedesamor.info/wp-content/uploads/2020/04/Im%C3%A1genes-Bonitas-de-Amor-sin-Letras.jpg" alt="imagen 1"> 
+             <img class="grid-item" src="https://i.pinimg.com/originals/15/29/0b/15290bbc53d23acf89de16f6e8274473.jpg" alt="imagen 3"> 
+             <img class="grid-item" src="https://st.depositphotos.com/1020341/4233/i/600/depositphotos_42333899-stock-photo-portrait-of-huge-beautiful-male.jpg" alt="imagen 4"> 
+             <img class="grid-item" src="https://images.unsplash.com/photo-1626688971432-b0a9bfb64eae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2134&q=80" alt="imagen 5"> 
+             <img class="grid-item" src="https://images.unsplash.com/photo-1626631045013-43c9ddd21b35?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="imagen 6"> 
+             <img class="grid-item" src="https://images.unsplash.com/photo-1626711934535-9749ea30dba8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="imagen 7"> 
+             <img class="grid-item" src="https://i2.wp.com/adweek.com/wp-content/uploads/2020/03/behr-zoom-background-1-2020.jpg" alt="imagen 8"> 
+             <img class="grid-item" src="https://images.unsplash.com/photo-1626697590089-5d62679c5dee?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=8" alt="imagen 9"> 
+             <img class="grid-item" src="https://images.unsplash.com/photo-1626702518085-e4315ca4dce2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="imagen 10"> 
+             <img class="grid-item" src="https://images.unsplash.com/photo-1626696691538-77d05aab5baf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80" alt="imagen 12"> 
+             <img class="grid-item" src="https://images.unsplash.com/photo-1626692987335-15dfc7a6f4b2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=564&q=80" alt="imagen 12"> 
+             <img class="grid-item" src="https://images.unsplash.com/photo-1626680114529-3f6ffa002b80?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80" alt="imagen 13"> 
+             <img class="grid-item" src="https://images.unsplash.com/photo-1626634913593-e5b88fd85627?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="imagen 14"> 
+             <img class="grid-item" src="https://th.bing.com/th?id=OIF.yn%2fiqqLJMcIn%2fUCg%2f%2bGVUw&w=203&h=307&c=7&o=5&dpr=1.25&pid=1.7" alt="imagen 15"> 
+             <img class="grid-item" src="https://th.bing.com/th/id/OIF.0Om9XBXT7inoLNRI0qYmeA?w=204&h=306&c=7&o=5&dpr=1.25&pid=1.7" alt="imagen 16"> 
+             <img class="grid-item" src="https://i.pinimg.com/564x/25/0f/a3/250fa3bf183919ae9e2c1b67dc24a197.jpg" alt="imagen 17"> 
+             <img class="grid-item" src="https://th.bing.com/th/id/OIP.16jeMkdqk_91jrdoEpvn1wHaLF?w=204&h=305&c=7&o=5&dpr=1.25&pid=1.7" alt="imagen 18"> 
+             <img class="grid-item" src="https://th.bing.com/th/id/OIP.DzgBh_UzG3_IS1_RIu-k2gHaLG?w=204&h=306&c=7&o=5&dpr=1.25&pid=1.7" alt="imagen 19"> 
+             <img class="grid-item" src="https://i.pinimg.com/564x/f5/ad/3b/f5ad3b3b2404314e9f5218ceefe00765.jpg" alt="imagen 20"> 
+             <img class="grid-item" src="https://i.pinimg.com/564x/c4/37/98/c43798ec19a30665e3c87488105faf3f.jpg" alt="imagen 21"> 
+             <img class="grid-item" src="https://i.pinimg.com/564x/82/0a/fe/820afe37210e67e68f4f7d50b5ad2be6.jpg" alt="imagen 22">
+             <img class="grid-item" src="https://i.pinimg.com/564x/36/c3/f5/36c3f5ef64336d603c97abf832924e10.jpg" alt="imagen 23"> 
+             <img class="grid-item" src="https://i.pinimg.com/564x/74/72/10/7472101cc22baf5ad947820e8056b296.jpg" alt="imagen 24"> 
+             <img class="grid-item" src="https://i.pinimg.com/564x/11/3b/0d/113b0d871ca78c2833e8e22da64b66c4.jpg" alt="imagen 25"> 
+             <img class="grid-item" src="https://i.pinimg.com/564x/a9/71/cb/a971cb66f754ba571a99804181851dea.jpg" alt="imagen 26">
+             <img class="grid-item" src="https://th.bing.com/th/id/OIP.kWTmqXUMoQioL4uWYZqz6gHaKn?w=206&h=296&c=7&o=5&dpr=1.25&pid=1.7" alt="imagen 27"> 
+             <img class="grid-item" src="https://th.bing.com/th/id/OIP.16jeMkdqk_91jrdoEpvn1wHaLF?w=204&h=305&c=7&o=5&dpr=1.25&pid=1.7" alt="imagen 28"> 
+             <img class="grid-item" src="https://th.bing.com/th/id/OIP.DzgBh_UzG3_IS1_RIu-k2gHaLG?w=204&h=306&c=7&o=5&dpr=1.25&pid=1.7" alt="imagen 29"> 
+             <img class="grid-item" src="https://i.pinimg.com/originals/15/29/0b/15290bbc53d23acf89de16f6e8274473.jpg" alt="imagen 30"> 
+             <img class="grid-item" src="https://th.bing.com/th/id/OIP.SeJ_pI-zL35zxcfMKw54pgHaLK?w=203&h=306&c=7&o=5&dpr=1.25&pid=1.7" alt="imagen 31"> 
+             <img class="grid-item" src="https://th.bing.com/th?id=OIF.yn%2fiqqLJMcIn%2fUCg%2f%2bGVUw&w=203&h=307&c=7&o=5&dpr=1.25&pid=1.7" alt="imagen 32"> 
+             <img class="grid-item" src="https://th.bing.com/th/id/OIP.UM8lPam5KmjbOApyQIyf5gHaLH?w=204&h=306&c=7&o=5&dpr=1.25&pid=1.7" alt="imagen 33"> 
+             <img class="grid-item" src="https://st.depositphotos.com/1007373/3945/i/950/depositphotos_39459925-stock-photo-eye-of-the-sea-lake.jpg" alt="imagen 34"> 
+             <img class="grid-item" src="https://c8.alamy.com/compes/r0rx8f/una-imagen-de-paisaje-vertical-de-un-carril-del-pais-que-esta-cubierto-con-las-hojas-que-caen-de-los-arboles-en-las-zonas-rurales-de-sussex-de-nueva-brunswick-canada-r0rx8f.jpg" alt="imagen 35"> 
+             <img class="grid-item" src="https://i.pinimg.com/474x/01/a7/4b/01a74bfb0669d3c6aaab91c9fa148d84.jpg" alt="imagen 36"> 
+             <img class="grid-item" src="https://static5.depositphotos.com/1007593/453/i/600/depositphotos_4530089-stock-photo-african-landscape.jpg" alt="imagen 37"> 
+             <img class="grid-item" src="https://i.pinimg.com/564x/47/5c/46/475c468f55c1daab4694cf6c2ff7488d.jpg" alt="imagen 38"> 
+             <img class="grid-item" src="https://i.pinimg.com/236x/82/9e/b0/829eb0263bc429b165ceb28aa3da801a.jpg" alt="imagen 39"> 
+             <img class="grid-item" src="https://i.pinimg.com/564x/ad/ab/21/adab2198df11871b04df43a9caaa48c3.jpg" alt="imagen 40"> 
+             <img class="grid-item" src="https://i.pinimg.com/564x/66/1f/89/661f8933d36c43a7b1bf850da3e3f87a.jpg" alt="imagen 41"> 
+             <img class="grid-item" src="https://i.pinimg.com/564x/7b/dd/72/7bdd7212937a39fdc07d0d37bb1cb02e.jpg" alt="imagen 42"> 
+             <img class="grid-item" src="https://i.pinimg.com/564x/b4/d6/20/b4d6204d86d649ccfc57482dd92d3344.jpg" alt="imagen 43"> 
+          </div>
+
+
+            
+  
+        <div class="btn-group" role="group" aria-label="Button group with nested dropdown">    
+            
+      
+            <div class="btn-group" role="group">
+                <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown" data-bs-toggle="dropdown" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plus" width="28" height="28" viewBox="0 0 24 24" stroke-width="3" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                      <line x1="12" y1="5" x2="12" y2="19" />
+                      <line x1="5" y1="12" x2="19" y2="12" />
+                    </svg>            
+                </button>
+      
+                <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                    <li><a class="dropdown-item" href="https://chrome.google.com/webstore/detail/pinterest-save-button/gpdjojdkbbmdfjfahjcgigfpmkopogic"> <strong>Hazte con nuestro botón de navegación para guardar ideas incluso más rápido.</strong></a></li>
+                    <li><a class="dropdown-item" href="https://www.pinterest.com.mx/pin-builder/"><strong>Crera un Pin.</strong></a></li>
+                </ul>
+      
+      
+                <button id="btnGroupDrop2" type="button" class="btn btn-primary dropdown" data-bs-toggle="dropdown" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-question-mark" width="28" height="28" viewBox="0 0 24 24" stroke-width="3" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M8 8a3.5 3 0 0 1 3.5 -3h1a3.5 3 0 0 1 3.5 3a3 3 0 0 1 -2 3a3 4 0 0 0 -2 4" />
+                    <line x1="12" y1="19" x2="12" y2="19.01" />
+                    </svg>
+                </button>
+      
+                <ul class="dropdown-menu" aria-labelledby="btnGroupDrop2">
+                    <li><a class="dropdown-item" href="https://help.pinterest.com/es?source=gear_menu_web"><strong>Visita el Centro de Asistencia.</strong></a></li>
+                    <li><a class="dropdown-item" href="https://developers.pinterest.com/tools/widget-builder/?type=profile&url=https%3A%2F%2Fwww.pinterest.com.mx%2Fgusmol37%2F&boardHeight=240&boardWidth=400&imageWidth=80&template=square">
+                    <strong>Crear widget.</strong>
+                    </a></li>
+                </ul>
+      
+            </div>
+      
+        </div>
+        
+        <!--<div id="basicExample2" class="justified-gallery"> 
+            
+            
+            <div class="cover">
+                <a class="cover" href="#" title="Girasoles">
+                    <img class="card" alt="Girasoles bonitos" src="https://c8.alamy.com/compes/pamtb0/impresionantes-imagenes-de-girasoles-en-un-atardecer-en-sopot-cerca-de-plovdiv-bulgaria-beautoful-imagen-de-verano-pamtb0.jpg"/>
+                </a>
+            </div>
+            <a href="#" title="Sonrisa">
+                <img alt="Sonrisa" src="https://4.bp.blogspot.com/-B8tZ9Urvx9k/VZv36VtmsRI/AAAAAAAAH5Y/5bybx2hFcYo/s1600/alice%2Bin%2Bwonderland%2Bfondos%2Bpara%2Bcelular%2B8.jpg"/>
+            </a>
+            <a href="#" title="manos">
+                <img alt="manos" src="https://www.imagenesdedesamor.info/wp-content/uploads/2020/04/Im%C3%A1genes-Bonitas-de-Amor-sin-Letras.jpg"/>
+            </a>
+            <a href="#" title="Luna">
+                <img alt="Luna" src="https://i.pinimg.com/originals/15/29/0b/15290bbc53d23acf89de16f6e8274473.jpg"/>
+            </a>        
+            <a href="#" title="Tierra">
+                <img alt="Tierra" src="https://i.pinimg.com/474x/10/d5/bb/10d5bb751a04d89562143801d62bcffa.jpg"/>
+            </a>
+            <a href="#" title="Leon">
+                <img alt="Leon" src="https://st.depositphotos.com/1020341/4233/i/600/depositphotos_42333899-stock-photo-portrait-of-huge-beautiful-male.jpg"/>
+            </a>
+            <!-- Finaliza David Ku            
+            
+            <a href="https://images.unsplash.com/photo-1626688971432-b0a9bfb64eae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2134&q=80">
+                <img alt="caption for image 1" src="https://images.unsplash.com/photo-1626688971432-b0a9bfb64eae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2134&q=80"/>
+            </a>
+            <a href="https://images.unsplash.com/photo-1626711934535-9749ea30dba8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80">
+                <img alt="caption for image 1" src="https://images.unsplash.com/photo-1626711934535-9749ea30dba8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"/>
+            </a>
+            <a href="https://images.unsplash.com/photo-1626631045013-43c9ddd21b35?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80">
+                <img alt="caption for image 1" src="https://images.unsplash.com/photo-1626631045013-43c9ddd21b35?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"/>
+            </a>
+            <a href="https://images.unsplash.com/photo-1626697590089-5d62679c5dee?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80">
+                <img alt="caption for image 1" src="https://images.unsplash.com/photo-1626697590089-5d62679c5dee?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80"/>
+             </a>   
+            <a href="https://images.unsplash.com/photo-1626702518085-e4315ca4dce2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80">
+                <img alt="caption for image 1" src="https://images.unsplash.com/photo-1626702518085-e4315ca4dce2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"/>
+              </a>
+            <a href="https://images.unsplash.com/photo-1626696691538-77d05aab5baf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80">
+                <img alt="caption for image 1" src="https://images.unsplash.com/photo-1626696691538-77d05aab5baf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80"/>
+             </a>
+            <a href="https://images.unsplash.com/photo-1626692987335-15dfc7a6f4b2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=564&q=80">
+                <img alt="caption for image 1" src="https://images.unsplash.com/photo-1626692987335-15dfc7a6f4b2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=564&q=80"/>
+            </a>
+            <a href="https://images.unsplash.com/photo-1626680114529-3f6ffa002b80?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80">
+                <img alt="caption for image 1" src="https://images.unsplash.com/photo-1626680114529-3f6ffa002b80?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80"/>
+            </a>
+            <a href="https://images.unsplash.com/photo-1626634913593-e5b88fd85627?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80">
+                <img alt="caption for image 1" src="https://images.unsplash.com/photo-1626634913593-e5b88fd85627?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"/>
+            </a>          
+            <a href="https://images.unsplash.com/photo-1626622556996-a3673b3151e4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80">
+                <img alt="caption for image 1" src="https://images.unsplash.com/photo-1626622556996-a3673b3151e4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"/>
+            </a>
+            <!-- Finaliza Gustavo 
+            <!--Comienza Fátima Castillo
+            <a href="https://i.pinimg.com/564x/25/0f/a3/250fa3bf183919ae9e2c1b67dc24a197.jpg">
+                <img alt="caption for imagen 1" src="https://i.pinimg.com/564x/25/0f/a3/250fa3bf183919ae9e2c1b67dc24a197.jpg"/>
+            </a>
+            <a href="https://i.pinimg.com/564x/93/d9/62/93d962761326d2734e5455f406fc5251.jpg">
+                <img alt="caption for imagen 1" src="https://i.pinimg.com/564x/93/d9/62/93d962761326d2734e5455f406fc5251.jpg"/>
+            </a>
+            <a href="https://i.pinimg.com/564x/ff/5f/3b/ff5f3be5ba79811dc37bb7be67984383.jpg">
+                <img alt="caption for imagen 1" src="https://i.pinimg.com/564x/ff/5f/3b/ff5f3be5ba79811dc37bb7be67984383.jpg"/>
+            </a>
+            <a href="https://i.pinimg.com/564x/f5/ad/3b/f5ad3b3b2404314e9f5218ceefe00765.jpg">
+                <img alt="caption for imagen 1" src="https://i.pinimg.com/564x/f5/ad/3b/f5ad3b3b2404314e9f5218ceefe00765.jpg"/>
+            </a>
+            <a href="https://i.pinimg.com/564x/c4/37/98/c43798ec19a30665e3c87488105faf3f.jpg">
+                <img alt="caption for imagen 1" src="https://i.pinimg.com/564x/c4/37/98/c43798ec19a30665e3c87488105faf3f.jpg"/>
+            </a>
+            <a href="https://i.pinimg.com/564x/82/0a/fe/820afe37210e67e68f4f7d50b5ad2be6.jpg">
+                <img alt="caption for imagen 1" src="https://i.pinimg.com/564x/82/0a/fe/820afe37210e67e68f4f7d50b5ad2be6.jpg"/>
+            </a>
+            <a href="https://i.pinimg.com/564x/36/c3/f5/36c3f5ef64336d603c97abf832924e10.jpg">
+                <img alt="caption for imagen 1" src="https://i.pinimg.com/564x/36/c3/f5/36c3f5ef64336d603c97abf832924e10.jpg"/>
+            </a>
+            <a href="https://i.pinimg.com/564x/74/72/10/7472101cc22baf5ad947820e8056b296.jpg">
+                <img alt="caption for imagen 1" src="https://i.pinimg.com/564x/74/72/10/7472101cc22baf5ad947820e8056b296.jpg"/>
+            </a>
+            <a href="https://i.pinimg.com/564x/11/3b/0d/113b0d871ca78c2833e8e22da64b66c4.jpg">
+                <img alt="caption for imagen 1" src="https://i.pinimg.com/564x/11/3b/0d/113b0d871ca78c2833e8e22da64b66c4.jpg"/>
+            </a>
+            <a href="https://i.pinimg.com/564x/a9/71/cb/a971cb66f754ba571a99804181851dea.jpg">
+                <img alt="caption for imagen 1" src="https://i.pinimg.com/564x/a9/71/cb/a971cb66f754ba571a99804181851dea.jpg"/>
+            </a>
+            <!--Finaliza Fátima Castillo
+            <!-- Comienza Carlos Aranda 
+            <a href="#">
+                <img alt="caption for image 21" src="https://th.bing.com/th/id/OIP.kWTmqXUMoQioL4uWYZqz6gHaKn?w=206&h=296&c=7&o=5&dpr=1.25&pid=1.7"/>
+            </a>
+            <a href="#">
+                <img alt="caption for image 22" src="https://th.bing.com/th/id/OIP.16jeMkdqk_91jrdoEpvn1wHaLF?w=204&h=305&c=7&o=5&dpr=1.25&pid=1.7"/>
+            </a>
+            <a href="#">
+                <img alt="caption for image 23" src="https://th.bing.com/th/id/OIP.DzgBh_UzG3_IS1_RIu-k2gHaLG?w=204&h=306&c=7&o=5&dpr=1.25&pid=1.7"/>
+            </a>
+            <a href="#" title="Just in a dream Place">
+                <img alt="caption for image 24" src="https://i.pinimg.com/originals/15/29/0b/15290bbc53d23acf89de16f6e8274473.jpg"/>
+            </a>
+            <a href="#">
+                <img alt="caption for image 25" src="https://th.bing.com/th/id/OIP.x51KmbTcczpUKNbLkHIeMQHaLL?w=203&h=307&c=7&o=5&dpr=1.25&pid=1.7"/>
+            </a>
+            <a href="#" title="Just in a dream Place">
+                <img alt="caption for image 26" src="https://th.bing.com/th/id/OIP.SeJ_pI-zL35zxcfMKw54pgHaLK?w=203&h=306&c=7&o=5&dpr=1.25&pid=1.7"/>
+            </a>
+            <a href="#">
+                <img alt="caption for image 27" src="https://th.bing.com/th/id/OIP.f2PfeaZBMmgIlNxtW1JNMQHaNK?w=187&h=333&c=7&o=5&dpr=1.25&pid=1.7"/>
+            </a>
+            <a href="#" title="Just in a dream Place">
+                <img alt="caption for image 28" src="https://th.bing.com/th/id/OIP.UM8lPam5KmjbOApyQIyf5gHaLH?w=204&h=306&c=7&o=5&dpr=1.25&pid=1.7"/>
+            </a>
+            <a href="#">
+                <img alt="caption for image 29" src="https://th.bing.com/th/id/OIF.0Om9XBXT7inoLNRI0qYmeA?w=204&h=306&c=7&o=5&dpr=1.25&pid=1.7"/>
+            </a>
+            <a href="#" title="Just in a dream Place">
+                <img alt="caption for image 30" src="https://th.bing.com/th?id=OIF.yn%2fiqqLJMcIn%2fUCg%2f%2bGVUw&w=203&h=307&c=7&o=5&dpr=1.25&pid=1.7"/>
+            </a>
+            <!-- Finaliza Carlos Aranda 
+        </div>-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+        <script src="js/galeria.js"></script>
+    </body>
+</html> 
