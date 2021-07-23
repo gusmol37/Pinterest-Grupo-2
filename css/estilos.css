@@ -1,184 +1,174 @@
 #basicExample2 img {
-    border-radius: 13px;
+  border-radius: 13px;
 }
 
 .btn-primary {
-    border-color: #fff !important;
-    box-shadow: 0px 0px 10px 2px rgb(223, 223, 223);
+  border-color: #fff !important;
+  box-shadow: 0px 0px 10px 2px rgb(223, 223, 223);
 }
 
 .btn-outline-primary:hover {
-    color: #767676;
-    background-color: #F0F0F0 !important;
+  color: #767676;
+  background-color: #f0f0f0 !important;
 }
 
-.btn-outline-primary{
-    color: #767676 !important;
-    font-size: 24px !important;
-    border-radius:30px!important;
-    padding: 8px;
-
+.btn-outline-primary {
+  color: #767676 !important;
+  font-size: 24px !important;
+  border-radius: 30px !important;
+  padding: 8px;
 }
-.dropdown-item{
-    font-weight: bold !important;
+.dropdown-item {
+  font-weight: bold !important;
 }
-.dropstart .dropdown-menu{
-    top: 50px !important;
-    margin-right: -60px !important;
+.dropstart .dropdown-menu {
+  top: 50px !important;
+  margin-right: -60px !important;
 }
-.dropdown-menu.show{
-    font-size:10px;
+.dropdown-menu.show {
+  font-size: 10px;
 }
-
 
 .dropdown-menu.show.mas {
-    margin-left: -70px !important;
-    margin-top: -70px!important;
+  margin-left: -70px !important;
+  margin-top: -70px !important;
 }
 
 .dropdown-menu.show.pregunta {
-    margin-left:-70px !important;
-    margin-bottom:-60px !important;
-    
-    
+  margin-left: -70px !important;
+  margin-bottom: -60px !important;
 }
-
-
 
 .dropdown-toggle::before {
-    border-top: .3em solid !important;
-    border-right: .3em solid transparent !important;
-    border-bottom: 0;
-    border-left: .3em solid transparent !important;
-    margin-right: .0;
+  border-top: 0.3em solid !important;
+  border-right: 0.3em solid transparent !important;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent !important;
+  margin-right: 0;
 }
-.form-control{
-    border-radius: 30px;
-    padding: .375rem 1rem;
+.form-control {
+  border-radius: 30px;
+  padding: 0.375rem 1rem;
 }
 
 .grid-container {
- 
-    margin: 0 auto;
-    margin-top: 82px!important;
-  }
+  margin: 0 auto;
+  margin-top: 82px !important;
+}
 
-  .cover {
-        width: 230px;
-        z-index: 20000;
-  }
-  
-  .grid-item {
-    width: 230px;
-    margin-bottom: 20px;
-    border-radius: 15px;
-    cursor: zoom-in;
-    background-color: lightgray;
-  }
-  
-  .grid-item:hover {
-    filter: contrast(90%) brightness(50%);
-  }
+.cover {
+  width: 230px;
+  z-index: 20000;
+}
 
+.grid-item {
+  width: 230px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  cursor: zoom-in;
+  background-color: lightgray;
+}
 
-.nav-link{
-    font-size: 15px !important;
-    font-weight: bold;
-    border-radius: 30px;
-    padding: .8rem 1rem !important;
-    
+.grid-item:hover {
+  filter: contrast(90%) brightness(50%);
 }
-.nav-link:hover, .navbar-brand:hover{
-    background-color: #ddd;
-    border-radius: 30px;
+
+.nav-link {
+  font-size: 15px !important;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 0.8rem 1rem !important;
 }
-.nav-link.active{
-    border-radius:30px;
-    background-color: black;
-    color:white !important
+.nav-link:hover,
+.navbar-brand:hover {
+  background-color: #ddd;
+  border-radius: 30px;
 }
-.navbar-light, .navbar-brand{
-    padding: 8px;
+.nav-link.active {
+  border-radius: 30px;
+  background-color: black;
+  color: white !important;
 }
-.search{
-    position: relative;
+.navbar-light,
+.navbar-brand {
+  padding: 8px;
+}
+.search {
+  position: relative;
 }
 .search input {
-    height: 50px;
-    text-indent: 25px;
-    border: 2px solid #d6d4d4
-    color #333;
-    background-color: #ddd;
-    border-radius: 2.2rem;
+  height: 50px;
+  text-indent: 25px;
+  border: 2px solid #d6d4d4 color #333;
+  background-color: #ddd;
+  border-radius: 2.2rem;
 }
 .search input:hover {
-   border: 0;
-    background-color: #ddd;
+  border: 0;
+  background-color: #ddd;
 }
 
 .search input:focus {
-   border: 0;
-    background-color: #EFEFEF;
+  border: 0;
+  background-color: #efefef;
 }
 .search .fa-search {
-    position: absolute;
-    top: 17px;
-    left: 16px
+  position: absolute;
+  top: 17px;
+  left: 16px;
 }
-.Subtitulos{
-    font-size: 10px;
-    color: #767676;
-    padding-left: 16px;
-    padding-top: 4px;
-    padding-bottom: 6px;
-
+.Subtitulos {
+  font-size: 10px;
+  color: #767676;
+  padding-left: 16px;
+  padding-top: 4px;
+  padding-bottom: 6px;
 }
 
 /*botones flotantes de ayuda y más*/
 
-.btn-group{
-    position: fixed;   
+.btn-group {
+  position: fixed;
 }
 
-#btnGroupDrop1{
-    display: block;
-    border-radius: 50px;    
-    position: fixed;
-    right: 20px;
-    bottom: 85px;
-    width: 3.5rem;
-    height: 3.5rem;
-    margin: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(255, 255, 255);        
+#btnGroupDrop1 {
+  display: block;
+  border-radius: 50px;
+  position: fixed;
+  right: 20px;
+  bottom: 85px;
+  width: 3.5rem;
+  height: 3.5rem;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
 }
 
-#btnGroupDrop2{
-    display: block;
-    border-radius: 50px;
-    position: fixed;
-    right: 20px;
-    bottom: 25px;
-    width: 3.5rem;
-    height: 3.5rem;
-    margin: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(255, 255, 255);        
+#btnGroupDrop2 {
+  display: block;
+  border-radius: 50px;
+  position: fixed;
+  right: 20px;
+  bottom: 25px;
+  width: 3.5rem;
+  height: 3.5rem;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
 }
 
-#btnGroupDrop1:hover{
-    background-color: rgb(248, 241, 241);     
+#btnGroupDrop1:hover {
+  background-color: rgb(248, 241, 241);
 }
 
-#btnGroupDrop2:hover{
-    background-color: rgba(248, 241, 241);
+#btnGroupDrop2:hover {
+  background-color: rgba(248, 241, 241);
 }
 
-.texto-para-boton{
-    padding-left:15px !important;
-
+.texto-para-boton {
+  padding-left: 15px !important;
 }
