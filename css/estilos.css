@@ -26,6 +26,24 @@
     top: 50px !important;
     margin-right: -60px !important;
 }
+.dropdown-menu.show{
+    font-size:10px;
+}
+
+
+.dropdown-menu.show.mas {
+    margin-left: -70px !important;
+    margin-top: -70px!important;
+}
+
+.dropdown-menu.show.pregunta {
+    margin-left:-70px !important;
+    margin-bottom:-60px !important;
+    
+    
+}
+
+
 
 .dropdown-toggle::before {
     border-top: .3em solid !important;
@@ -40,13 +58,7 @@
 }
 
 .grid-container {
-    /* display: grid;
-    grid-template-columns: repeat(auto-fill, 230px);
-    gap: 20px;
-    justify-content: center; */
-  
-    /* grid-template-rows: masonry; */
-  
+ 
     margin: 0 auto;
     margin-top: 82px!important;
   }
@@ -58,13 +70,10 @@
   
   .grid-item {
     width: 230px;
-    /* height: 200px;
-    object-fit: cover; */
     margin-bottom: 20px;
     border-radius: 15px;
     cursor: zoom-in;
     background-color: lightgray;
-    z-index: 1;
   }
   
   .grid-item:hover {
@@ -167,4 +176,9 @@
 
 #btnGroupDrop2:hover{
     background-color: rgba(248, 241, 241);
+}
+
+.texto-para-boton{
+    padding-left:15px !important;
+
 }
